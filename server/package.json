@@ -1,0 +1,21 @@
+{
+  "name": "bug-repro",
+  "private": true,
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@trpc/server": "11.0.0-rc.532",
+    "@types/cors": "2.8.17",
+    "cors": "2.8.5",
+    "zod": "3.23.8"
+  }
+}
