@@ -6,16 +6,16 @@ server:
 
 ```bash
 cd server
-bun i
-bun start
+p i
+p dev
 ```
 
 client:
 
 ```bash
 cd client
-bun i
-bun dev
+p i
+p dev
 ```
 
 ## bug reproduction
